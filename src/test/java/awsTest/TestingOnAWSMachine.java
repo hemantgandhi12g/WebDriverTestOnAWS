@@ -24,6 +24,7 @@ public class TestingOnAWSMachine {
 		searchBox.sendKeys("Selenium");
 		searchBox.sendKeys(Keys.RETURN);
 		System.out.println(driver.getTitle());
+		System.out.println("Hemant Gandhi");
 		driver.quit();
 	}
 }
